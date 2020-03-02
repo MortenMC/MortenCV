@@ -5,7 +5,7 @@ import FrontPage from '../src/FrontPage/FrontPage'
 import EducationPage from '../src/EducationPage/EducationPage'
 import ExperiencePage from '../src/ExperiencePage/ExperiencePage'
 import "./App.css"
-import './TopBar.css'
+import '../src/TopBar/TopBar.css'
 import MMCLogoBlack from '../Pictures/MMCLogoSort.png'
 
 
