@@ -188,5 +188,5 @@ export const internshipArray = [
 export default {
     information, kontaktInformation, skillsArray, toolsArray, experienceArray, 
     educationArray, developmentArray, programmingArray, technologiesArray, othersArray,
-    internshipArray, testArray
+    internshipArray
 }
