@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import TopBar from '../src/TopBar/TopBar'
 import BottomBar from '../src/BottomBar/BottomBar'
+import FrontPage from '../src/FrontPage/FrontPage'
 import logo from "./logo.svg"
 import "./App.css"
 
@@ -38,6 +39,7 @@ class App extends Component {
     return (
         <div className="App">
           <TopBar/>
+          <FrontPage/>
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
