@@ -12,7 +12,6 @@ class ExperiencePage extends React.Component {
         const experiences = experienceArray;
         return (
             <div className='ExperiencePageBackground'>
-                
                 <div className='ExperiencePageLayer'>
                     <h1 className='ExperienceHeader'>Erhvervserfaring</h1>
                     {experiences.map((element) =>
@@ -36,7 +35,6 @@ class ExperiencePage extends React.Component {
                     )}
 
                 </div>
-                
                 
             </div>
         )

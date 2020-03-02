@@ -9,14 +9,11 @@
 }
 .ExperiencePageContainer {
     width: 100%; 
-    display: flex;
-    align-items: center;
     border: 1px solid blue;
 }
 
 .ExperiencePageLayer {
     width: 70%;
-    align-items: center;
     border: 1px solid red;
 }
 
