@@ -6,7 +6,7 @@ import EducationPage from '../src/EducationPage/EducationPage'
 import ExperiencePage from '../src/ExperiencePage/ExperiencePage'
 import "./App.css"
 import '../src/TopBar/TopBar.css'
-import MMCLogoBlack from '../Pictures/MMCLogoSort.png'
+import MMCLogoBlack from '../src/Pictures/MMCLogoSort.png'
 
 
 class App extends Component {
