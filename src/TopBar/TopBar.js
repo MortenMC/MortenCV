@@ -16,8 +16,6 @@ class TopBar extends React.Component {
                             Curriculum Vitae
                         </div>
                     </div>
-
-                    <SelectedPageDropDown/> 
                 </div> 
             </div>
         </div>
