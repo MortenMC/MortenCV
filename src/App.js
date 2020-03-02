@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import TopBar from '../src/TopBar/TopBar'
 import BottomBar from '../src/BottomBar/BottomBar'
 import FrontPage from '../src/FrontPage/FrontPage'
-import logo from "./logo.svg"
+import EducationPage from '../src/EducationPage/EducationPage'
 import "./App.css"
 
 class LambdaDemo extends Component {
@@ -40,6 +40,7 @@ class App extends Component {
         <div className="App">
           <TopBar/>
           <FrontPage/>
+          <EducationPage/>
           <BottomBar/>
         </div>
       

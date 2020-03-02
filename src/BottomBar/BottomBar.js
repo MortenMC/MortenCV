@@ -9,7 +9,7 @@ class BottomBar extends React.Component {
                 <div className='BottomBarContent'>
                     <div className='BottomBarDescriptionContainer'>
                         <div className='BottomBarDescriptionContent'>
-                                Dette CV er udviklet af Morten Marcussen Cramer, i teknologierne React og TypeScript
+                                Dette CV er udviklet af Morten Marcussen Cramer, i teknologierne React og JavaScript
                         </div>
                     </div>
                 </div> 

@@ -1,0 +1,143 @@
+.EducationPageBackground {
+    display: flex;
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.EducationPageLayer {
+    width: 70%;
+    max-Width: 70%;
+}
+
+.EducationPageContainer {
+    width: 100%; 
+    display: flex;
+}
+
+.EducationPageView {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    background-color: #D8D9DE;
+}
+
+.EducationContentView {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.EducationPageContentContainer {
+    width: 50%;
+}
+
+.EducationContentStyle {
+    margin: 30px;
+    text-Align: center; 
+    font-Size: 20px;
+}
+
+.EducationDevider {
+    height: 80px; 
+    width: 2px; 
+    background-Color: #00000025; 
+    margin: 20px;
+}
+
+.EducationHeader {
+    text-align: center;
+    color: #00000090;
+    text-shadow: 1px 10px 20px #00000090, 0 0  25px #00000050;
+    margin-bottom: 40px;
+}
+
+.EducationDescription {
+    font-size: 20px;
+}
+
+.TimeLineContainer {
+    width: 20%;
+}
+
+.WorkedWithContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.WorkedWithDiv {
+    border: 2px solid #00000025;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.WorkedWithElementDiv {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.WorkedWithHeader {
+    border-bottom: 1px solid black;
+    margin: 40px;
+    margin-bottom: 10px;
+}
+
+.InternshipDiv {
+    border: 2px solid #00000025;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.InternshipFirmAndDateContainer {
+    width: 30%;
+    margin: 20px;
+}
+
+.InternshipFirm {
+    font-Size: 20px; 
+    font-Weight: 700; 
+    margin-Bottom: 40px; 
+    text-Transform: uppercase;
+}
+
+.InternshipDate {
+    font-Size: 20px; 
+    font-Weight: 700;
+}
+
+.SpaceFromNextSection {
+    margin-Bottom: 50px;
+}
+
+.InternshipDescriptionContainer {
+    width: 70%; 
+    margin: 20px;
+}
+
+.InternshipDescriptionContent {
+    font-Size: 20px;
+}
+
+.MainProjectDescription {
+    margin: 20px; 
+    font-Size: 20px;
+}
