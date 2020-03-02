@@ -3,6 +3,7 @@ import TopBar from '../src/TopBar/TopBar'
 import BottomBar from '../src/BottomBar/BottomBar'
 import FrontPage from '../src/FrontPage/FrontPage'
 import EducationPage from '../src/EducationPage/EducationPage'
+import ExperiencePage from '../src/ExperiencePage/ExperiencePage'
 import "./App.css"
 
 class LambdaDemo extends Component {
@@ -41,6 +42,7 @@ class App extends Component {
           <TopBar/>
           <FrontPage/>
           <EducationPage/>
+          <ExperiencePage/>
           <BottomBar/>
         </div>
       
