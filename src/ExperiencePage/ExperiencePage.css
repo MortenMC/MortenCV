@@ -7,14 +7,16 @@
     align-items: center;
     border: 1px solid black;
 }
-.ExperiencePageContainer {
-    width: 70%; 
-    border: 1px solid blue;
-}
 
 .ExperiencePageLayer {
     width: 70%;
+    align-items: center;
     border: 1px solid red;
+}
+
+.ExperiencePageContainer {
+    width: 70%; 
+    border: 1px solid blue;
 }
 
 .ExperiencePageView {
