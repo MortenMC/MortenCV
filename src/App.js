@@ -40,9 +40,11 @@ class App extends Component {
     return (
         <div>
           <TopBar/>
+          <div>
             <FrontPage/>
             <EducationPage/>
             <ExperiencePage/>
+          </div>
           <BottomBar/>
         </div>
       
