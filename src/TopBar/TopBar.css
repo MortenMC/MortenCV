@@ -42,11 +42,18 @@
 
 }
 
+.ButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .TopBarButtons {
     border: 2px solid #00000025;
     border-radius: 25px;
     margin-top: 10px;
     margin: 10px;
+    font-size: 20px;
 }
 /* .DropDownBody {
     width: 270px;
