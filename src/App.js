@@ -38,11 +38,13 @@ class LambdaDemo extends Component {
 class App extends Component {
   render() {
     return (
-        <div className="App">
+        <div>
           <TopBar/>
-          <FrontPage/>
-          <EducationPage/>
-          <ExperiencePage/>
+          <div>
+            <FrontPage/>
+            <EducationPage/>
+            <ExperiencePage/>
+          </div>
           <BottomBar/>
         </div>
       
