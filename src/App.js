@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-// import TopBar from '../src/TopBar/TopBar'
 import BottomBar from '../src/BottomBar/BottomBar'
 import FrontPage from '../src/FrontPage/FrontPage'
 import EducationPage from '../src/EducationPage/EducationPage'
