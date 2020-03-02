@@ -6,6 +6,18 @@
     justify-content: center;
 }
 
+.FrontPageLayer {
+    display: flex; 
+    width: 70%; 
+    justify-Content: space-between;
+}
+
+.FrontPageMeDescription {
+    margin-Left: 40px; 
+    margin-Right: 40px; 
+    font-Size: 20px;
+}
+
 .FrontPageView {
     height: 100%;
     width: 90%;
@@ -28,6 +40,22 @@
     margin-top: 100px;
     text-transform: uppercase;
 }
+
+.InformationContainer {
+    margin-Right: 20px; 
+    margin-Left: 20px; 
+    display: flex; 
+    flex-Wrap: wrap; 
+    justify-Content: space-between;
+}
+.ContactContainer {
+    margin-Right: 20px; 
+    margin-Left: 20px; 
+    display: flex; 
+    flex-Wrap: wrap; 
+    justify-Content: space-between;
+}
+
 
 .InformationDiv {
     display: flex;

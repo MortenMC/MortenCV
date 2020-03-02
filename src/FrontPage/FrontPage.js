@@ -1,13 +1,10 @@
 import * as React from 'react';
-
 import { information, kontaktInformation, skillsArray, toolsArray } from '../cvArrays/arrays'
+import './FrontPage.css'
 // import pictureMe from '../../theme/pictures/mig.png'
 // import linkedInLogo from '../../theme/pictures/LI-In-Bug.png'
 
-
 class FrontPage extends React.Component {
-
-
     render() {
 
         const informations = information;
@@ -16,17 +13,17 @@ class FrontPage extends React.Component {
         const tools = toolsArray;
         return (
             <div className='FrontPageBackground'>
-                <div style={{ display: 'flex', width: '70%', justifyContent: 'space-between'}}>  
+                <div className='FrontPageLayer'>  
                     <div className='FrontPageView'>
                         <h1 className='FrontPageHeader'>Mig</h1>
-                            <div style={{ marginLeft: '40px', marginRight: '40px', fontSize: '20px'}}>
+                            <div className='FrontPageMeDescription'>
                                 <p>Jeg er en ung mand på 25 år der pr. 27. januar 2020 kan kalde sig nyuddannet datamatiker. 
                                     Jeg søger et arbejde, hvor jeg kan bidrage med teknologierne; React, React-Native, JavaScript og TypeScript,
                                     men jeg er samtidigt også villig til at lære nye ting og blive udfordret.
                                     Jeg syntes at processen fra idé til realisering er spændende og samtidigt har jeg det sjovt med at udvikle og designe brugergrænseflader rent kodemæssigt. </p>
                             </div>
                         <h1 className='InformationHeader'>Personlig Information</h1>
-                        <div style={{ marginRight: '20px', marginLeft: '20px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
+                        <div className='InformationContainer'>
                             {informations.map((element) => 
                             <div className='InformationDiv'>
                                 <div className='ElementTypeDiv'>{element.type}</div>
@@ -34,7 +31,7 @@ class FrontPage extends React.Component {
                             </div>)}
                         </div>
                         <h1 className='InformationHeader'>Kontakt Info</h1>
-                        <div style={{ marginRight: '20px', marginLeft: '20px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
+                        <div className='ContactContainer'>
                             {kontakt.map((element) => 
                             <div className='InformationDiv'>
                                 <div className='ElementTypeDiv'>{element.type}</div>
