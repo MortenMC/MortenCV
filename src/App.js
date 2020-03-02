@@ -35,9 +35,9 @@ setSelectedStateView = (temp) =>  {
                         </div>
                     </div>
                     <div>
-                      <button onClick={() => this.setSelectedStateView('Forside')}>Forside</button>
-                      <button onClick={() => this.setSelectedStateView('Uddannelse')}>Uddannelser</button>
-                      <button onClick={() => this.setSelectedStateView('Erfaring')}>Erfaring</button>
+                      <button className='TopBarButtons' onClick={() => this.setSelectedStateView('Forside')}>Forside</button>
+                      <button className='TopBarButtons' onClick={() => this.setSelectedStateView('Uddannelse')}>Uddannelser</button>
+                      <button className='TopBarButtons' onClick={() => this.setSelectedStateView('Erfaring')}>Erfaring</button>
                     </div>
                 </div> 
             </div>
