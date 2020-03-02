@@ -1,0 +1,35 @@
+
+
+.BottomBarView {
+    height: 40px;
+    width: 70%;
+}
+
+.BottomBarContent {
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: #D8D9DE;
+    border-radius: 25px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+.BottomBarDescriptionContainer {
+    display: flex; 
+    align-Items: center;
+    margin-Left: 20px;
+}
+
+.BottomBarDescriptionContent {
+    font-Size: 10px; 
+    color: black; 
+    font-Weight: 600;
+
+}
+
+.BottomBarLayer {
+    display: flex; 
+    margin-Top: 30px; 
+    justify-Content: center; 
+    margin-Bottom: 40px;
+}

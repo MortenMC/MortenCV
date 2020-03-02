@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import TopBar from '../src/TopBar/TopBar'
+import BottomBar from '../src/BottomBar/BottomBar'
 import logo from "./logo.svg"
 import "./App.css"
 
@@ -44,6 +45,7 @@ class App extends Component {
             </p>
             <LambdaDemo />
           </header>
+          <BottomBar/>
         </div>
       
     )
