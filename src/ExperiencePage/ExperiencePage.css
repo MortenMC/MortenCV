@@ -1,13 +1,14 @@
 .ExperiencePageBackground {
+    display: flex;
     margin-top: 30px;
     height: 100%;
     width: 100%;
+    justify-content: center;
     border: 1px solid black;
 }
 
 .ExperiencePageLayer {
-    width: 70%; 
-    max-Width: 70%;
+    width: 70%;
 }
 
 .ExperiencePageView {
