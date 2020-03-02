@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import Layout from '../src/Layout/Layout'
 import TopBar from '../src/TopBar/TopBar'
 import logo from "./logo.svg"
 import "./App.css"
@@ -36,8 +35,8 @@ class LambdaDemo extends Component {
 class App extends Component {
   render() {
     return (
-      <Layout>
         <div className="App">
+          <TopBar/>
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
@@ -46,7 +45,6 @@ class App extends Component {
             <LambdaDemo />
           </header>
         </div>
-      </Layout>
       
     )
   }
