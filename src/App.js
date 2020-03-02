@@ -42,7 +42,7 @@ setSelectedStateView = (temp) =>  {
                 </div> 
             </div>
           </div>
-          <div>
+          <div className='PagesCSS'>
             {this.state.currentState === 'Forside' ?
             <FrontPage/>
             :
