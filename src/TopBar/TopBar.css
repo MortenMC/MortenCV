@@ -1,3 +1,9 @@
+.TopBarLayer{
+    display: flex; 
+    margin-Top: 10px;
+    justify-Content: center;
+}
+
 
 .TopBarView {
     height: 80px;
@@ -13,6 +19,28 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
 
+.LogoContainer {
+    display: 'flex'; 
+    align-Items: center;
+    margin-Left: 50px;
+}
+
+.LogoContent {
+    height: 50px; 
+    margin: 10px;
+}
+
+.CVContainer {
+    display: flex; 
+    align-Items: center;
+}
+
+.CVContent {
+    font-Size: 25px; 
+    color: black; 
+    font-Weight: 600;
+
+}
 /* .DropDownBody {
     width: 270px;
     max-width : 100%;
