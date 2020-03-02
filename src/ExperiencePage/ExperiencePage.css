@@ -1,9 +1,7 @@
 .ExperiencePageBackground {
-    display: flex;
     margin-top: 30px;
     height: 100%;
     width: 100%;
-    justify-content: center;
     border: 1px solid black;
 }
 
