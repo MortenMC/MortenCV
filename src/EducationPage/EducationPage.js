@@ -9,7 +9,7 @@ class EducationPage extends React.Component {
 
         return (
             <div className='EducationPageBackground'>
-                <div classname='EducationPageLayer'>
+                
                     <h1 className='EducationHeader'>Uddannelser</h1>
                     {educationArray.map((element) =>
                     <div className='EducationPageContainer'>
@@ -99,7 +99,7 @@ class EducationPage extends React.Component {
                         </div>
                         <div className='TimeLineContainer'/>
                     </div>)}
-                </div>
+                
             </div>
         )
     }
