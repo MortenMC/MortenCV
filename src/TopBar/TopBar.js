@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './TopBar.css'
+import MMCLogoBlack from '../Pictures/MMCLogoSort.png'
 
 class TopBar extends React.Component {
     render() {
@@ -8,8 +9,7 @@ class TopBar extends React.Component {
             <div className='TopBarView'>
                 <div className='TopBarContent'>
                     <div className='LogoContainer'>
-                        <div className='LogoContent'>Logo</div>
-                        {/* <img style={{height: '50px', margin: '10px'}} src={MMCLogoBlack} alt={MMCLogoBlack}/> */}
+                        <img className='LogoContent' src={MMCLogoBlack} alt={MMCLogoBlack}/>
                     </div>
                     <div className='CVContainer'>
                         <div className='CVContent'>
