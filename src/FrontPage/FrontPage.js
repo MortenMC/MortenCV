@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { FrontPageView, FrontPageBackground, FrontPageHeader, StickyElement, InformationHeader, InformationDiv, ElementTypeDiv, RealElementDiv, SkillsAndToolsContainer, Picture, SkillsAndToolsHeader, SkillsAndToolsElements, LinkLogo } from './Styled'
 
 import { information, kontaktInformation, skillsArray, toolsArray } from '../cvArrays/arrays'
-import pictureMe from '../../theme/pictures/mig.png'
+// import pictureMe from '../../theme/pictures/mig.png'
 // import linkedInLogo from '../../theme/pictures/LI-In-Bug.png'
 
 
