@@ -5,21 +5,18 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .ExperiencePageLayer {
     width: 70%;
     align-items: center;
     text-align: center;
-    border: 1px solid red;
 }
 
 .ExperiencePageContainer {
     width: 100%;
     align-items: center;
     text-align: center;
-    border: 1px solid blue;
 }
 
 .ExperiencePageView {
