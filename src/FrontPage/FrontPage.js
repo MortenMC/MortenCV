@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { information, kontaktInformation, skillsArray, toolsArray } from '../cvArrays/arrays'
 import './FrontPage.css'
-// import pictureMe from '../../theme/pictures/mig.png'
-// import linkedInLogo from '../../theme/pictures/LI-In-Bug.png'
+import pictureMe from '../Pictures/mig.png'
+import linkedInLogo from '../Pictures/LI-In-Bug.png'
 
 class FrontPage extends React.Component {
     render() {
@@ -40,12 +40,12 @@ class FrontPage extends React.Component {
                         </div>
                         <div>
                             <a href='https://www.linkedin.com/in/morten-marcussen-cramer-991344181' target="_blank">
-                                {/* <LinkLogo src={linkedInLogo} alt={linkedInLogo}/> */}
+                                <img className='LinkLogo' src={linkedInLogo} alt={linkedInLogo}/>
                             </a>
                         </div>  
                     </div>
                     <div className='StickyElement'>
-                        {/* <Picture src={pictureMe} alt={pictureMe}/> */}
+                        <img className='Picture' src={pictureMe} alt={pictureMe}/>
                         <div className='SkillsAndToolsContainer'>
                             <h1 className='SkillsAndToolsHeader'>Skills</h1>
                                 {skills.map((element) =>
