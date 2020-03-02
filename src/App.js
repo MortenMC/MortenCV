@@ -40,13 +40,6 @@ class App extends Component {
         <div className="App">
           <TopBar/>
           <FrontPage/>
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> Test.
-            </p>
-            <LambdaDemo />
-          </header>
           <BottomBar/>
         </div>
       
