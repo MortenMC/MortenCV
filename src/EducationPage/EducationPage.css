@@ -5,15 +5,18 @@
     width: 100%;
     justify-content: center;
     max-width: 100%;
+    border: 1px solid red;
 }
 
 .EducationPageLayer {
     width: 70%;
+    border: 1px solid blue;
 }
 
 .EducationPageContainer {
     width: 70%; 
     display: flex;
+    border: 1px solid black;
 }
 
 .EducationPageView {
