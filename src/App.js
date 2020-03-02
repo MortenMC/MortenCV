@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import TopBar from '../src/TopBar/TopBar'
+// import TopBar from '../src/TopBar/TopBar'
 import BottomBar from '../src/BottomBar/BottomBar'
 import FrontPage from '../src/FrontPage/FrontPage'
 import EducationPage from '../src/EducationPage/EducationPage'
@@ -10,6 +10,17 @@ import MMCLogoBlack from '../src/Pictures/MMCLogoSort.png'
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        currentState: 'Forside'
+    };
+}
+
+setSelectedStateView = (temp) =>  {
+  this.setState({ currentState: temp.toString()}, () => {})
+}
+
   render() {
     return (
         <div>
@@ -25,17 +36,26 @@ class App extends Component {
                         </div>
                     </div>
                     <div>
-                      <button>Forside</button>
-                      <button>Uddannelser</button>
-                      <button>Erfaring</button>
+                      <button onClick={() => this.setSelectedStateView('Forside')}>Forside</button>
+                      <button onClick={() => this.setSelectedStateView('Uddannelse')}>Uddannelser</button>
+                      <button onClick={() => this.setSelectedStateView('Erfaring')}>Erfaring</button>
                     </div>
                 </div> 
             </div>
           </div>
           <div>
+            {this.state.currentState === 'Forside' ?
             <FrontPage/>
+            :
+            null}
+            {this.state.currentState === 'Uddannelse' ?
             <EducationPage/>
+            :
+            null}
+            {this.state.currentState === 'Erfaring' ?
             <ExperiencePage/>
+            :
+            null}
           </div>
           <BottomBar/>
         </div>
