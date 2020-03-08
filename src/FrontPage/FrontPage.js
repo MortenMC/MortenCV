@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { information, kontaktInformation, skillsArray, toolsArray } from '../cvArrays/arrays'
 import './FrontPage.css'
-import pictureMe from '../Pictures/migsorthvid.png'
+import pictureMe from '../Pictures/CvBillede.png'
 import linkedInLogo from '../Pictures/LI-In-Bug.png'
 
 class FrontPage extends React.Component {
