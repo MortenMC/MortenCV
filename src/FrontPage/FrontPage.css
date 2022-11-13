@@ -46,7 +46,7 @@
     margin-Left: 20px; 
     display: flex; 
     flex-Wrap: wrap; 
-    justify-Content: space-between;
+    justify-Content: center;
 }
 .ContactContainer {
     margin-Right: 20px; 
