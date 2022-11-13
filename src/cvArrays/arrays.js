@@ -5,7 +5,7 @@ export const information = [
     },
     {
         type: 'Alder',
-        content: '25'
+        content: '27'
 
     },
     {
@@ -19,8 +19,8 @@ export const information = [
 
     },
     {
-        type: 'Status',
-        content: 'Jobsøgende'
+        type: 'Job status',
+        content: 'Ansat hos Infomedia'
 
     },
     {
@@ -47,13 +47,22 @@ export const kontaktInformation = [
 
 export const skillsArray = [
     {
-        skill: 'React/React-Native'
+        skill: 'React'
     },
     {
-        skill: 'JavaScript/TypeScript'
+        skill: 'TypeScript'
     },
     {
-        skill: 'HTML/CSS'
+        skill: 'React-Native'
+    },
+    {
+        skill: 'JavaScript'
+    },
+    {
+        skill: 'CSS'
+    },
+    {
+        skill: 'HTML'
     },
     {
         skill: 'SCRUM/XP'

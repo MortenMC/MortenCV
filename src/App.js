@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { useState } from "react"
 import BottomBar from '../src/BottomBar/BottomBar'
 import FrontPage from '../src/FrontPage/FrontPage'
 import EducationPage from '../src/EducationPage/EducationPage'
@@ -8,68 +8,58 @@ import '../src/TopBar/TopBar.css'
 import MMCLogoBlack from '../src/Pictures/MMCLogoSort.png'
 
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        currentState: 'Forside'
-    };
-}
+const App = () => {
 
-setSelectedStateView = (temp) =>  {
-  this.setState({ currentState: temp.toString()}, () => {})
-}
+  const [currentState, setCurrentState] = useState('Forside')
 
-  render() {
-    return (
-        <div>
-          <div className='TopBarLayer'>
-            <div className='TopBarView'>
-                <div className='TopBarContent'>
-                    <div className='LogoContainer'>
-                        <img className='LogoContent' src={MMCLogoBlack} alt={MMCLogoBlack}/>
-                    </div>
-                    <div className='CVContainer'>
-                        <div className='CVContent'>
-                            Curriculum Vitae
-                        </div>
-                    </div>
-                    <div className='ButtonsContainer'>
-                      {this.state.currentState !== 'Forside' ? 
-                      <button className='TopBarButtons' onClick={() => this.setSelectedStateView('Forside')}>Forside</button>
-                      :
-                      null}
-                      {this.state.currentState !== 'Uddannelse' ? 
-                      <button className='TopBarButtons' onClick={() => this.setSelectedStateView('Uddannelse')}>Uddannelser</button>
-                      :
-                      null}
-                      {this.state.currentState !== 'Erfaring' ? 
-                      <button className='TopBarButtons' onClick={() => this.setSelectedStateView('Erfaring')}>Erfaring</button>
-                      :
-                      null}
-                    </div>
-                </div> 
+  return (
+    <div>
+      <div className='TopBarLayer'>
+        <div className='TopBarView'>
+          <div className='TopBarContent'>
+            <div className='LogoContainer'>
+              <img className='LogoContent' src={MMCLogoBlack} alt={MMCLogoBlack} />
+            </div>
+            <div className='CVContainer'>
+              <div className='CVContent'>
+                Curriculum Vitae
+              </div>
+            </div>
+            <div className='ButtonsContainer'>
+              {currentState !== 'Forside' ?
+                <button className='TopBarButtons' onClick={() => setCurrentState('Forside')}>Forside</button>
+                :
+                null}
+              {currentState !== 'Uddannelse' ?
+                <button className='TopBarButtons' onClick={() => setCurrentState('Uddannelse')}>Uddannelser</button>
+                :
+                null}
+              {currentState !== 'Erfaring' ?
+                <button className='TopBarButtons' onClick={() => setCurrentState('Erfaring')}>Erfaring</button>
+                :
+                null}
             </div>
           </div>
-          <div>
-            {this.state.currentState === 'Forside' ?
-            <FrontPage/>
-            :
-            null}
-            {this.state.currentState === 'Uddannelse' ?
-            <EducationPage/>
-            :
-            null}
-            {this.state.currentState === 'Erfaring' ?
-            <ExperiencePage/>
-            :
-            null}
-          </div>
-          <BottomBar/>
         </div>
-      
-    )
-  }
+      </div>
+      <div>
+        {currentState === 'Forside' ?
+          <FrontPage />
+          :
+          null}
+        {currentState === 'Uddannelse' ?
+          <EducationPage />
+          :
+          null}
+        {currentState === 'Erfaring' ?
+          <ExperiencePage />
+          :
+          null}
+      </div>
+      <BottomBar />
+    </div>
+
+  )
 }
 
 export default App
