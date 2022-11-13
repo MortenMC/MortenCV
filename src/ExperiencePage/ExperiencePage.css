@@ -34,9 +34,10 @@
 
 .ExperienceHeader {
     text-align: center;
-    color: #00000090;
-    text-shadow: 1px 10px 20px #00000090, 0 0  25px #00000050;
+    color: #D8D9DE;
+    text-shadow: 1px 10px 20px #D8D9DE50, 0 0  25px #D8D9DE25;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 
