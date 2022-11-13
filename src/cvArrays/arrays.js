@@ -28,8 +28,8 @@ export const information = [
         content: 'Samlevende'
 
     },
-    
-    
+
+
 ]
 
 export const kontaktInformation = [
@@ -74,7 +74,10 @@ export const toolsArray = [
         tool: 'Redux'
     },
     {
-        tool: 'Node.js'
+        tool: 'dc.js'
+    },
+    {
+        tool: 'D3.js'
     }
 ]
 
@@ -124,59 +127,59 @@ export const educationArray = [
 
 ]
 
-export const developmentArray = [ 
-        {
-            method: 'SCRUM'
-        },
-        {
-            method: 'XP'
-        }
-    ];
+export const developmentArray = [
+    {
+        method: 'SCRUM'
+    },
+    {
+        method: 'XP'
+    }
+];
 
 export const programmingArray = [
-        {
-            language: 'C#'
-        },
-        {
-            language: 'XAML'
-        },
-        {
-            language: 'TypeScript'
-        },
-        {
-            language: 'HTML'
-        }
-    ];
+    {
+        language: 'C#'
+    },
+    {
+        language: 'XAML'
+    },
+    {
+        language: 'TypeScript'
+    },
+    {
+        language: 'HTML'
+    }
+];
 
-export const technologiesArray= [
-        {
-            tech: 'DB'
-        },
-        {
-            tech: 'REST'
-        },
-        {
-            tech: 'API'
-        },
-        {
-            tech: 'TCP'
-        },
-        {
-            tech: 'UDP'
-        },
-    ];
+export const technologiesArray = [
+    {
+        tech: 'DB'
+    },
+    {
+        tech: 'REST'
+    },
+    {
+        tech: 'API'
+    },
+    {
+        tech: 'TCP'
+    },
+    {
+        tech: 'UDP'
+    },
+];
 
 export const othersArray = [
-        {
-            software: 'Github'
-        },
-        {
-            software: 'Azure'
-        },
-        {
-            software: 'Ubuntu'
-        }
-    ];
+    {
+        software: 'Github'
+    },
+    {
+        software: 'Azure'
+    },
+    {
+        software: 'Ubuntu'
+    }
+];
 
 export const internshipArray = [
     {
@@ -192,10 +195,10 @@ export const internshipArray = [
         dateTo: 'November 2019',
         description: 'Fortsatte med at arbejde i de ovennævnte sprog, hvor jeg videreudviklede deres applikation. Her var jeg en del af et team, der gjorde brug af agile arbejdsmetoder, som SCRUM og XP.'
     }
-] 
+]
 
 export default {
-    information, kontaktInformation, skillsArray, toolsArray, experienceArray, 
+    information, kontaktInformation, skillsArray, toolsArray, experienceArray,
     educationArray, developmentArray, programmingArray, technologiesArray, othersArray,
     internshipArray
 }

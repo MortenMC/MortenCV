@@ -43,7 +43,7 @@ const FrontPage = () => {
                             <p key={`${i}_skill`} className='SkillsAndToolsElements'>{element.skill}</p>
                         )}
 
-                        <h1 className='SkillsAndToolsHeader'>Tools</h1>
+                        <h1 className='SkillsAndToolsHeader'>Libraries</h1>
                         {tools.map((element, i) =>
                             <p key={`${i}_tool`} className='SkillsAndToolsElements'>{element.tool}</p>
                         )}
