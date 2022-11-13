@@ -1,7 +1,7 @@
 export const information = [
     {
         type: 'Navn',
-        content: 'Morten Marcussen Cramer'
+        content: 'Morten M. Cramer'
     },
     {
         type: 'Alder',
