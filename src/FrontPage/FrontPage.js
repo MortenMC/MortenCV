@@ -15,16 +15,16 @@ const FrontPage = () => {
                 <div className='FrontPageView'>
                     <h1 className='InformationHeader'>Personlig Information</h1>
                     <div className='InformationContainer'>
-                        {informations.map((element) =>
-                            <div className='InformationDiv'>
+                        {informations.map((element, i) =>
+                            <div key={`${i}_information`} className='InformationDiv'>
                                 <div className='ElementTypeDiv'>{element.type}</div>
                                 <div className='RealElementDiv'>{element.content}</div>
                             </div>)}
                     </div>
                     <h1 className='InformationHeader'>Kontakt Info</h1>
                     <div className='ContactContainer'>
-                        {kontakt.map((element) =>
-                            <div className='InformationDiv'>
+                        {kontakt.map((element, i) =>
+                            <div key={`${i}_kontakt`} className='InformationDiv'>
                                 <div className='ElementTypeDiv'>{element.type}</div>
                                 <div className='RealElementDiv'>{element.content}</div>
                             </div>)}
@@ -39,13 +39,13 @@ const FrontPage = () => {
                     <img className='Picture' src={pictureMe} alt={pictureMe} />
                     <div className='SkillsAndToolsContainer'>
                         <h1 className='SkillsAndToolsHeader'>Skills</h1>
-                        {skills.map((element) =>
-                            <p className='SkillsAndToolsElements'>{element.skill}</p>
+                        {skills.map((element, i) =>
+                            <p key={`${i}_skill`} className='SkillsAndToolsElements'>{element.skill}</p>
                         )}
 
                         <h1 className='SkillsAndToolsHeader'>Tools</h1>
-                        {tools.map((element) =>
-                            <p className='SkillsAndToolsElements'>{element.tool}</p>
+                        {tools.map((element, i) =>
+                            <p key={`${i}_tool`} className='SkillsAndToolsElements'>{element.tool}</p>
                         )}
                     </div>
                 </div>
