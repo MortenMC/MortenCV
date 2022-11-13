@@ -19,6 +19,7 @@ const FrontPage = () => {
                             <div key={`${i}_information`} className='InformationDiv'>
                                 <div className='ElementTypeDiv'>{element.type}</div>
                                 <div className='RealElementDiv'>{element.content}</div>
+                                <div className='status' style={{ backgroundColor: element.status}}/>
                             </div>)}
                     </div>
                     <h1 className='InformationHeader'>Kontakt Info</h1>

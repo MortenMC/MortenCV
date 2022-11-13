@@ -20,7 +20,8 @@ export const information = [
     },
     {
         type: 'Job status',
-        content: 'Ansat hos Infomedia'
+        content: 'Front-end developer hos Infomedia',
+        status: 'red'
 
     },
     {
