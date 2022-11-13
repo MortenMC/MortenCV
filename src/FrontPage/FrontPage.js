@@ -30,7 +30,7 @@ const FrontPage = () => {
                             </div>)}
                     </div>
                     <div>
-                        <a href='https://www.linkedin.com/in/morten-marcussen-cramer-991344181' target="_blank">
+                        <a href='https://www.linkedin.com/in/morten-marcussen-cramer-991344181' target="_blank" rel="noopener noreferrer">
                             <img className='LinkLogo' src={linkedInLogo} alt={linkedInLogo} />
                         </a>
                     </div>
