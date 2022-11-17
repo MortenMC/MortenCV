@@ -11,8 +11,8 @@ class EducationPage extends React.Component {
             <div className='EducationPageBackground'>
                 <div className='EducationPageLayer'>
                     <h1 className='EducationHeader'>Uddannelser</h1>
-                    {educationArray.map((element) =>
-                    <div className='EducationPageContainer'>
+                    {educationArray.map((element, i) =>
+                    <div key={`Uddannelser-${i}`} className='EducationPageContainer'>
                         <div className='TimeLineContainer'/>
                         <div className='EducationPageView'>
                             <div className='EducationContentView'>
@@ -36,39 +36,39 @@ class EducationPage extends React.Component {
 
                                 <h2>Agile arbejdsmetoder</h2>
                                 <div className='WorkedWithContainer'>
-                                    {developmentArray.map((element) => 
-                                    <div className='WorkedWithDiv'>
+                                    {developmentArray.map((element, i) => 
+                                    <div key={`Agile-${i}`} className='WorkedWithDiv'>
                                         <div className='WorkedWithElementDiv'>{element.method}</div>
                                     </div>)}
                                 </div>
 
                                 <h2>Sprog</h2>
                                 <div className='WorkedWithContainer'>
-                                    {programmingArray.map((element) => 
-                                    <div className='WorkedWithDiv'>
+                                    {programmingArray.map((element, i) => 
+                                    <div key={`Sprog-${i}`} className='WorkedWithDiv'>
                                         <div className='WorkedWithElementDiv'>{element.language}</div>
                                     </div>)}
                                 </div>
 
                                 <h2>Teknologier</h2>
                                 <div className='WorkedWithContainer'>
-                                    {technologiesArray.map((element) => 
-                                    <div className='WorkedWithDiv'>
+                                    {technologiesArray.map((element, i) => 
+                                    <div key={`Teknologier-${i}`} className='WorkedWithDiv'>
                                         <div className='WorkedWithElementDiv'>{element.tech}</div>
                                     </div>)}
                                 </div>
 
                                 <h2>Andet</h2>
                                 <div className='WorkedWithContainer'>
-                                    {othersArray.map((element) => 
-                                    <div className='WorkedWithDiv'>
+                                    {othersArray.map((element, i) => 
+                                    <div key={`Andet-${i}`} className='WorkedWithDiv'>
                                         <div className='WorkedWithElementDiv'>{element.software}</div>
                                     </div>)}
                                 </div>
 
                                 <h1 className='WorkedWithHeader'>Praktikperiode</h1>
-                                {internshipArray.map((element) =>
-                                <div className='InternshipDiv'>
+                                {internshipArray.map((element, i) =>
+                                <div key={`Praktikperiode-${i}`} className='InternshipDiv'>
                                     <div className='InternshipFirmAndDateContainer'>
                                         <div className='InternshipFirm'>
                                             {element.firm}

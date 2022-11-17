@@ -6,15 +6,13 @@ import { experienceArray } from '../cvArrays/arrays'
 
 
 const ExperiencePage = () => {
-
-
     const experiences = experienceArray;
     return (
         <div className='ExperiencePageBackground'>
             <div className='ExperiencePageLayer'>
                 <h1 className='ExperienceHeader'>Erhvervserfaring</h1>
-                {experiences.map((element) =>
-                    <div className='ExperiencePageContainer'>
+                {experiences.map((element, i) =>
+                    <div key={`education-${i}`} className='ExperiencePageContainer'>
                         <div className='TimeLineContainer' />
                         <div className='ExperiencePageView'>
                             <div className='ExperienceInfoContainer'>
